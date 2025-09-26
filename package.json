@@ -1,0 +1,30 @@
+{
+  "name": "codex-mcp-screenshot",
+  "version": "0.1.0",
+  "description": "Codex MCP server and CLI for capturing macOS app screenshots",
+  "type": "module",
+  "bin": {
+    "codex-mcp-screenshot": "./src/server.js",
+    "codex-screenshot": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "cli": "node ./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-user/codex-mcp-screenshot.git"
+  },
+  "keywords": [
+    "codex",
+    "mcp",
+    "screenshot",
+    "macos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.2.0",
+    "zod": "^3.23.8"
+  }
+}
