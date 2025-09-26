@@ -1,6 +1,6 @@
 {
   "name": "codex-mcp-screenshot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Codex MCP server and CLI for capturing macOS app screenshots",
   "type": "module",
   "bin": {
